@@ -25,16 +25,33 @@
 <body class="roboto">
     <header class="bg-[#FFFBF0]">
         <!-- navbar -->
-
+        <nav class="flex justify-between items-center pt-12 w-10/12 mx-auto">
+            <div class="w-52 lg:w-2/4">
+                <img  src="icons/logo.png" alt="">
+            </div>
+            <div class="hidden lg:flex justify-between items-center gap-8">
+                <p class="text-base font-medium">home</p>
+                <p class="text-base font-medium">product</p>
+                <p class="text-base font-medium">About us</p>
+                <p class="text-base font-medium">Contact us</p>
+            </div>
+            <div class="lg:hidden">
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+        </nav>
         <!-- Banner -->
         <section class=" p-10">
             <div class="lg:flex justify-between items-center  w-10/12 mx-auto">
-                <div class="">
-                    <h1 class="text-7xl bebas uppercase">
-                        <span class="text-[#FABE4C]">Be the Penguins</span><br>
+                <div class="text-center lg:text-left">
+                    <h1 class="text-4xl lg:text-7xl bebas uppercase">
+                        <span class="text-[#FABE4C]">Be the Penguins</span><br class="hidden lg:block">
                         <span class="text-[#363958]">of Winter</span>
                     </h1>
-                    <p class="text-[#3E3E3E] text-base">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="text-[#3E3E3E] text-base mb-4 text-justify lg:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry.</p>
                     <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl"><svg
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -45,7 +62,7 @@
 
                         BUY NOW</button>
                 </div>
-                <div>
+                <div class="mt-4">
                     <img src="images/model.png" alt="">
                 </div>
             </div>
@@ -68,13 +85,14 @@
                             printing and typesetting industry.</p>
                         <div class="flex justify-between items-center mt-3">
                             <h3 class="text-[#FABE4C] text-4xl font-black">$550</h3>
-                            <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="size-6 inline">
+                            <button
+                                class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                 </svg>
-    
+
                                 BUY NOW</button>
                         </div>
                     </div>
@@ -90,13 +108,14 @@
                             printing and typesetting industry.</p>
                         <div class="flex justify-between items-center mt-3">
                             <h3 class="text-[#FABE4C] text-4xl font-black">$550</h3>
-                            <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="size-6 inline">
+                            <button
+                                class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                 </svg>
-    
+
                                 BUY NOW</button>
                         </div>
                     </div>
@@ -112,13 +131,14 @@
                             printing and typesetting industry.</p>
                         <div class="flex justify-between items-center mt-3">
                             <h3 class="text-[#FABE4C] text-4xl font-black">$550</h3>
-                            <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="size-6 inline">
+                            <button
+                                class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                 </svg>
-    
+
                                 BUY NOW</button>
                         </div>
                     </div>
@@ -141,13 +161,14 @@
                             printing and typesetting industry.</p>
                         <div class="flex justify-between items-center mt-3">
                             <h3 class="text-[#FABE4C] text-4xl font-black">$550</h3>
-                            <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="size-6 inline">
+                            <button
+                                class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                 </svg>
-    
+
                                 BUY NOW</button>
                         </div>
                     </div>
@@ -163,13 +184,14 @@
                             printing and typesetting industry.</p>
                         <div class="flex justify-between items-center mt-3">
                             <h3 class="text-[#FABE4C] text-4xl font-black">$550</h3>
-                            <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="size-6 inline">
+                            <button
+                                class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                 </svg>
-    
+
                                 BUY NOW</button>
                         </div>
                     </div>
@@ -185,13 +207,14 @@
                             printing and typesetting industry.</p>
                         <div class="flex justify-between items-center mt-3">
                             <h3 class="text-[#FABE4C] text-4xl font-black">$550</h3>
-                            <button class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="size-6 inline">
+                            <button
+                                class="px-8 py-4 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                 </svg>
-    
+
                                 BUY NOW</button>
                         </div>
                     </div>
@@ -199,26 +222,52 @@
             </div>
         </section>
         <!-- Contact section -->
-         <section>
-        <!-- Small card-1 -->
-            <div class="flex flex-row-reverse justify-between items-center">
-                <div>
-                    <img src="images/shopping.png" alt="">
+        <section class="my-14">
+            <div class="lg:flex my-14 flex-row-reverse justify-between items-center gap-10">
+                <div class="lg:w-2/3">
+                    <img class="w-full h-fit" src="images/shopping.png" alt="">
                 </div>
                 <div>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <!-- Small card-1 -->
+                    <div
+                        class="lg:h-36 mt-5 p-7 lg:flex justify-between items-center bg-white gap-7 rounded-2xl drop-shadow-lg">
+                        <div class="lg:w-1/4 w-1/2 mx-auto my-auto mb-4">
+                            <img class="mx-auto lg:w-full sm:w-1/2" src="icons/house.png" alt="">
                         </div>
-                        <div>
-                            <h5>Find the Perfect Fit</h5>
-                            <p>Everybody is different, which is why we
+                        <div class="text-center lg:text-left ">
+                            <h5 class="text-[#3E3E3E] lg:text-2xl font-bold mb-2 sm:text-xl">Find the Perfect Fit</h5>
+                            <p class="text-[#3E3E3E] text-base font-normal">Everybody is different, which is why we
                                 offer styles for every body.</p>
                         </div>
                     </div>
+                    <!-- Small card-2 -->
+                    <div
+                        class="lg:h-36 mt-5 p-7 lg:flex justify-between items-center bg-white gap-7 rounded-2xl drop-shadow-lg">
+                        <div class="lg:w-1/4 w-1/2 mx-auto my-auto mb-4">
+                            <img class="mx-auto lg:w-full sm:w-1/2" src="icons/box.png" alt="">
+                        </div>
+                        <div class="text-center lg:text-left ">
+                            <h5 class="text-[#3E3E3E] lg:text-2xl font-bold mb-2 sm:text-xl">Find the Perfect Fit</h5>
+                            <p class="text-[#3E3E3E] text-base font-normal">Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <!-- Small card-1 -->
+                    <div
+                        class="lg:h-36 mt-5 p-7 lg:flex justify-between items-center bg-white gap-7 rounded-2xl drop-shadow-lg">
+                        <div class="lg:w-1/4 w-1/2 mx-auto my-auto mb-4">
+                            <img class="mx-auto lg:w-full sm:w-1/2" src="icons/question.png" alt="">
+                        </div>
+                        <div class="text-center lg:text-left ">
+                            <h5 class="text-[#3E3E3E] lg:text-2xl font-bold mb-2 sm:text-xl">Find the Perfect Fit</h5>
+                            <p class="text-[#3E3E3E] text-base font-normal">Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-         </section>
+        </section>
     </main>
 </body>
 
